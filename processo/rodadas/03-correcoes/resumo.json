@@ -1,0 +1,26 @@
+{
+  "rodada": "03-correcoes",
+  "modelo": "gpt-6.2-astra",
+  "esforco": "medium",
+  "inicio": "2026-11-18T01:15:26-03:00",
+  "segundos": 381,
+  "codigo_saida": 0,
+  "tokens": {
+    "entrada": 1021112,
+    "cache": 963456,
+    "saida": 12828
+  },
+  "custo_equivalente_usd": 1.36,
+  "cota_estimada_pct": 0.6,
+  "cota_medida_pct": {
+    "inicio": 87.0,
+    "fim": 87.0
+  },
+  "itens": {
+    "agent_message": 3,
+    "command_execution": 20
+  },
+  "arquivos": [],
+  "prompt": "rodadas/03-correcoes/prompt.md",
+  "resposta": "rodadas/03-correcoes/resposta.md"
+}

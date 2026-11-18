@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Imersão Jarvis 3D · INEMA.CLUB</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;family=Sora:wght@600;700&amp;display=swap">
+<link rel="stylesheet" href="./src/estilo.css">
+<script type="module" src="./src/interface.js"></script>
+</head>
+<body>
+<header><div class="barra"><img src="./marca/logo-inema-club-horizontal.png" alt="INEMA.CLUB"><span>Imersão Jarvis 3D</span><span id="cracha" hidden></span><span id="placar" hidden></span><button id="menu" hidden>Agenda</button></div></header>
+<main>
+<p id="aviso" role="status" hidden></p>
+<section id="entrada" class="hero">
+<div class="convite"><p class="rotulo">Imersão Jarvis 3D</p>
+<h1>Criando seu <em>Jarvis.</em></h1>
+<p class="lead" id="promessa"></p><p>Entre no hangar e monte o seu, peça por peça.</p>
+<form id="acesso"><label for="nome">Nome no crachá <small>(opcional)</small></label>
+<input id="nome" maxlength="60" autocomplete="given-name" placeholder="Como quer ser chamado?">
+<div class="acoes"><button value="3d" disabled>Entrar no hangar</button><button value="sem-3d" disabled>Assistir sem 3D</button></div></form>
+<button id="reiniciar" hidden>Recomeçar</button>
+<div id="confirmacao" hidden><p>Apagar o progresso e recomeçar?</p><button id="cancelar">Cancelar</button> <button id="zerar">Sim, recomeçar</button></div>
+</div><div class="foto" role="img" aria-label="Jarvis de visor preto na bancada de montagem"><div class="legenda">6 palcos <b> / </b> 8 peças</div></div>
+</section>
+<section id="evento" hidden>
+<div id="programacao"><div class="cab"><div><p class="rotulo">Criando seu Jarvis</p><h1 id="tituloModo" tabindex="-1">Hangar</h1></div><button id="trocar"></button></div>
+<p id="fala"></p>
+<details><summary>Por onde começar</summary><div id="portas"></div></details>
+<div class="cab"><h2 id="agendaTitulo" tabindex="-1">Agenda</h2><span id="contagem" role="status"></span></div>
+<div id="agenda"></div><small><a href="processo/">Como foi feito</a></small><button id="rever" hidden>Rever o fecho</button><h2>Peças do Jarvis</h2><ul id="pecas"></ul></div>
+<div id="hangar" hidden><div id="cena"></div><div id="toque" aria-label="Joystick para caminhar"></div>
+<div id="rodape"><div id="legenda"><p id="abertura"></p><button id="dispensar" aria-label="Fechar legenda">×</button></div>
+<p id="dica">WASD ou setas para andar. Arraste para olhar.</p><div id="encaixe" role="status"></div>
+<button id="proximo">Ir ao próximo palco</button></div></div>
+</section>
+<dialog id="painel" aria-labelledby="tituloPainel"><section id="videoTelao" aria-label="Telão do palco" hidden>
+<div id="capaTelao"><span id="numeroTelao" class="numero"></span><strong id="tituloTelao"></strong><button id="assistirTelao">Assistir no telão</button><span id="materialTelao"></span></div>
+<button id="pararVideo" hidden>Parar vídeo</button></section>
+<div class="cab"><p class="rotulo" id="contexto"></p><button id="agendaSessao">Agenda</button><button id="recolher" aria-expanded="true" aria-controls="sessao acoesPalco">Recolher</button><button id="fechar" aria-label="Fechar painel">Fechar</button></div><div id="sessao"></div><footer id="acoesPalco"></footer><small id="linkProcesso" hidden><a href="processo/">Como foi feito</a></small></dialog>
+<noscript>Ative o JavaScript para abrir a programação.</noscript>
+</main>
+</body></html>

@@ -1,0 +1,26 @@
+{
+  "rodada": "06-video-no-telao",
+  "modelo": "gpt-6.2-astra",
+  "esforco": "medium",
+  "inicio": "2026-11-18T01:57:40-03:00",
+  "segundos": 251,
+  "codigo_saida": 0,
+  "tokens": {
+    "entrada": 771418,
+    "cache": 723712,
+    "saida": 7097
+  },
+  "custo_equivalente_usd": 0.96,
+  "cota_estimada_pct": 0.4,
+  "cota_medida_pct": {
+    "inicio": 88.0,
+    "fim": 88.0
+  },
+  "itens": {
+    "agent_message": 3,
+    "command_execution": 15
+  },
+  "arquivos": [],
+  "prompt": "rodadas/06-video-no-telao/prompt.md",
+  "resposta": "rodadas/06-video-no-telao/resposta.md"
+}

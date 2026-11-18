@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Criando seu Jarvis: monte o seu assistente de IA, na ordem · Eventos INEMA</title>
+<meta content="Área Criando seu Jarvis do INEMA: o caminho na ordem para montar o seu assistente de IA. Entenda como um agente funciona, monte o seu com segurança, ponha no Telegram, dê voz, veja tudo num painel e faça ele melhorar toda semana, com cursos e guias gratuitos." name="description"/>
+<meta content="#0a0b0d" name="theme-color"/>
+<meta content="website" property="og:type"/>
+<meta content="pt_BR" property="og:locale"/>
+<meta content="Criando seu Jarvis — um assistente de IA só seu" property="og:title"/>
+<meta content="Um assistente que lembra de você e só faz o perigoso com o seu OK: as 6 etapas, na ordem, com o curso de cada uma." property="og:description"/>
+<meta content="https://eventos.inema.pro/criando-seu-jarvis/assets/criando-seu-jarvis.jpg" property="og:image"/>
+<meta content="https://eventos.inema.pro/criando-seu-jarvis/" property="og:url"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<style>
+:root{--bg:#0a0b0d;--panel:#111317;--panel2:#15181d;--ink:#e8e6e3;--mut:#9aa3ad;--line:#23272e;--sky:#38bdf8;--sky2:#7dd3fc;--amber:oklch(0.84 0.17 87);--amber-ink:#161000;--good:#41d9a0;--warn:#f7c948;--max:1120px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;background:var(--bg)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:var(--sky2);text-decoration:none}a:hover{text-decoration:underline}
+img{max-width:100%}
+:focus-visible{outline:3px solid var(--sky);outline-offset:3px;border-radius:6px}
+.skip{position:fixed;left:16px;top:8px;z-index:100;transform:translateY(-150%);padding:9px 13px;background:var(--ink);color:var(--bg);font-weight:800;border-radius:8px}
+.skip:focus{transform:none}
+.wrap{width:min(var(--max),calc(100% - 40px));margin:0 auto}
+/* sumário da página */
+.sub{position:sticky;top:44px;z-index:40;background:rgba(10,11,13,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.sub .wrap{display:flex;gap:4px;overflow-x:auto;padding:8px 0;scrollbar-width:none}
+.sub a{padding:7px 11px;border-radius:9px;color:var(--mut);font-size:13px;font-weight:600;white-space:nowrap}
+.sub a:hover{color:var(--ink);background:var(--panel2);text-decoration:none}
+/* hero */
+.hero{padding:34px 0 10px}
+.topline{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:18px}
+.back{display:inline-block;color:var(--mut);font-size:13px}
+.banner{display:block;margin:0;border:1px solid oklch(0.55 0.14 87);border-radius:18px;overflow:hidden;background:#05070b;box-shadow:0 24px 60px oklch(0.03 0.02 60/.6)}
+.banner img{display:block;width:100%;height:auto;aspect-ratio:1400/788;object-fit:cover}
+.hero-texto{padding:34px 0 0;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(280px,.8fr);gap:40px;align-items:start}
+.kicker{margin:0 0 10px;color:var(--amber);font-size:12px;font-weight:750;letter-spacing:.7px;text-transform:uppercase}
+h1{margin:0;font-size:clamp(34px,5.2vw,58px);line-height:1.02;letter-spacing:-.035em;text-wrap:balance}
+h1 b{color:var(--sky2);font-weight:800}
+.lead{margin:18px 0 0;color:var(--mut);font-size:18px;max-width:640px}
+.lead b{color:var(--ink);font-weight:650}
+.acoes{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+.btn{min-height:48px;padding:0 18px;display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid var(--line);border-radius:12px;color:var(--ink);font-size:14px;font-weight:800;text-decoration:none;background:var(--panel)}
+.btn:hover{text-decoration:none;border-color:var(--sky)}
+.btn-primary{border-color:var(--amber);background:var(--amber);color:var(--amber-ink)}.btn-primary:hover{background:oklch(0.88 0.16 87);border-color:oklch(0.88 0.16 87)}
+.nota-hero{display:flex;gap:10px;align-items:center;margin-top:16px;color:var(--mut);font-size:14px}
+.nota-hero i{flex:none;width:10px;height:10px;border-radius:50%;background:var(--good);box-shadow:0 0 0 4px oklch(0.70 0.15 160/.2)}
+.mapa{border:1px solid var(--line);border-radius:16px;background:var(--panel);padding:18px 20px}
+.mapa h2{margin:0 0 10px;font-size:13px;letter-spacing:.7px;text-transform:uppercase;color:var(--mut)}
+.mapa ol{margin:0;padding-left:20px;color:var(--mut);font-size:14.5px}
+.mapa li{margin:4px 0}.mapa li a{color:var(--ink);font-weight:600}
+/* seções */
+section{padding:58px 0 0}
+.sec{font-size:12px;font-weight:750;letter-spacing:1px;text-transform:uppercase;color:var(--amber);margin:0 0 10px}
+h2.t{margin:0 0 10px;font-size:clamp(26px,3.4vw,38px);line-height:1.1;letter-spacing:-.025em;text-wrap:balance}
+h2.t2{margin:30px 0 10px;font-size:clamp(22px,2.8vw,30px);line-height:1.15;letter-spacing:-.02em;text-wrap:balance}
+.intro{margin:0 0 26px;color:var(--mut);font-size:17px;max-width:760px}
+.intro b{color:var(--ink);font-weight:650}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(3,1fr)}
+.grid.g4{grid-template-columns:repeat(4,1fr)}
+.card{display:flex;flex-direction:column;gap:8px;border:1px solid var(--line);border-radius:16px;background:var(--panel);padding:20px 22px;transition:border-color .2s,transform .2s,background .2s}
+a.card{color:inherit}a.card:hover{text-decoration:none;border-color:oklch(0.55 0.14 87);background:var(--panel2);transform:translateY(-3px)}
+.card h3{margin:0;font-size:18px;line-height:1.25;letter-spacing:-.2px}
+.card p{margin:0;color:var(--mut);font-size:14.5px}
+.card .go{margin-top:auto;padding-top:8px;color:var(--sky2);font-weight:700;font-size:14px}
+.card .tag{display:inline-block;align-self:flex-start;font-size:11px;font-weight:750;letter-spacing:.5px;text-transform:uppercase;color:var(--amber);border:1px solid oklch(0.55 0.14 87/.5);border-radius:99px;padding:3px 9px}
+.card.destaque{border-color:oklch(0.55 0.14 87);background:linear-gradient(160deg,oklch(0.19 0.03 60/.7),var(--panel))}
+/* tabela */
+.tabela{overflow-x:auto;border:1px solid var(--line);border-radius:16px;background:var(--panel);margin:8px 0 18px}
+.rota{width:100%;min-width:640px;border-collapse:collapse;font-size:14.5px}
+.rota th,.rota td{padding:12px 16px;text-align:left;vertical-align:top;border-top:1px solid var(--line)}
+.rota thead th{border-top:none;font-size:11.5px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;color:var(--amber);background:var(--panel2)}
+.rota tbody th{color:var(--ink);font-weight:700;width:30%}
+.rota td{color:var(--mut)}
+.rota td a{font-weight:700}
+.rota td b{color:var(--ink)}
+.dica{margin-top:16px;padding:14px 16px;border:1px dashed var(--line);border-radius:12px;color:var(--mut);font-size:14px}
+.dica b{color:var(--ink)}
+.honest{margin:18px 0 0;padding:16px 18px;border-left:3px solid var(--warn);background:var(--panel);border-radius:0 12px 12px 0;color:var(--mut);font-size:14.5px}
+.honest b{color:var(--ink)}
+/* venda final */
+.venda{margin-top:58px;padding:36px 0 0;border-top:1px solid var(--line)}
+.venda .grid{margin-top:22px}
+.oferta{border:1px solid var(--line);border-radius:18px;background:var(--panel);padding:24px 24px 22px;display:flex;flex-direction:column;gap:10px}
+.oferta.vip{border-color:oklch(0.55 0.14 87);background:linear-gradient(160deg,oklch(0.19 0.03 60/.7),var(--panel));box-shadow:0 20px 60px oklch(0.03 0.02 60/.5)}
+.oferta .k{font-size:11.5px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;color:var(--amber)}
+.oferta h3{margin:0;font-size:24px;letter-spacing:-.3px;line-height:1.15}
+.oferta p{margin:0;color:var(--mut);font-size:15px}
+.oferta .btn{margin-top:auto}
+footer{margin-top:64px;border-top:1px solid var(--line);padding:22px 0;color:var(--mut);font-size:13px}
+@media(max-width:960px){.grid,.grid.g4{grid-template-columns:1fr 1fr}}
+@media(max-width:720px){.hero-texto{grid-template-columns:1fr;gap:22px}.grid,.grid.g4{grid-template-columns:1fr}.wrap{width:min(var(--max),calc(100% - 28px))}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}html{scroll-behavior:auto}}
+.pedido{margin:0 0 18px;padding:18px 20px;border:1px solid var(--line);border-radius:14px;background:#07080a;color:var(--ink);font:13.5px/1.6 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;word-break:break-word}
+code{font:.92em ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--ink);background:var(--panel2);padding:1px 5px;border-radius:5px}
+</style>
+<link href="/llms.txt" rel="describedby" type="text/plain"/>
+<link href="/inema.json" rel="alternate" type="application/json"/>
+<link href="/shared/header.css" id="event-language-style" rel="stylesheet"/><link href="https://eventos.inema.pro/criando-seu-jarvis/" rel="canonical"/><link href="https://eventos.inema.pro/criando-seu-jarvis/" hreflang="pt-BR" rel="alternate"/><link href="https://eventos.inema.pro/criando-seu-jarvis/en/" hreflang="en" rel="alternate"/><link href="https://eventos.inema.pro/criando-seu-jarvis/es/" hreflang="es" rel="alternate"/><link href="https://eventos.inema.pro/criando-seu-jarvis/" hreflang="x-default" rel="alternate"/><script defer="" src="/shared/header.js"></script></head>
+<body><div aria-label="Navegação INEMA" class="event-language-bar" role="navigation"><div class="event-language-inner"><a class="event-brand" href="https://eventos.inema.pro/">INEMA<span>eventos</span></a><input class="event-menu-toggle" id="event-menu-toggle" type="checkbox"/><label class="event-menu-button" for="event-menu-toggle">Menu</label><div class="event-language-sites"><a href="https://eventos.inema.pro/">Eventos</a><details class="event-areas"><summary>Áreas</summary><div class="event-areas-panel"><div class="event-areas-group"><p class="event-areas-title">Áreas de assunto</p><a href="/agi-ready/"><b>AGI-ready</b><small>comandar agentes</small></a><a href="/atendimento/"><b>Atendimento com Agentes</b><small>clínica, reservas, academia e saúde</small></a><a href="/claude-codex/"><b>Claude → Codex</b><small>migre ou fique agnóstico</small></a><a href="/codex-claude/"><b>Codex + Claude</b><small>usar os dois juntos e todos os projetos</small></a><a href="/consultoria-ia/"><b>Consultoria de IA</b><small>de construtor a consultor</small></a><a href="/criando-seu-jarvis/"><b>Criando seu Jarvis</b><small>o caminho, na ordem, até o seu assistente</small></a><a href="/do-chat-ao-agente/"><b>Do chat ao agente</b><small>aprender rápido em 4 sequências</small></a><a href="/execucao-longa/"><b>Execução Longa</b><small>agentes que trabalham horas</small></a><a href="/gestao-ia/"><b>Gestão de IA</b><small>2027: gerenciar agentes</small></a><a href="/ia-cultivada/"><b>IA Cultivada</b><small>não se programa, se cultiva</small></a><a href="/inema-gov/"><b>INEMA GOV 2027</b><small>prefeituras que aprendem</small></a><a href="/inemaseo/"><b>inemaSEO</b><small>Google, Bing e buscas de IA</small></a><a href="/jarvis/"><b>JARVIS</b><small>crie o seu sistema de IA</small></a><a href="/jev/"><b>JEV</b><small>decisões de IA na prática</small></a><a href="/loop-r-engenharia/"><b>LOOP-R Engenharia</b><small>agentes que trabalham horas e se verificam</small></a><a href="/mods/"><b>MODS</b><small>painéis e guardas no Claude Code</small></a><a href="/oswork/"><b>OSWork</b><small>do chat ao seu ambiente de agentes</small></a><a href="/prof2030/"><b>Profissional 2030</b><small>4 formações com certificação</small></a><a href="/negocios-com-ia/"><b>Negócios com IA</b><small>13 negócios do pior ao melhor e a escada</small></a><a href="/lance-sua-startup/"><b>Lance sua Startup</b><small>59 sites de lançamento, um agente preenchendo</small></a><a href="/ia-na-pratica/"><b>IA na Prática</b><small>20 respostas: ferramentas, consultoria, segurança</small></a><a href="/profissoes-virais/"><b>Profissões virais</b><small>vídeos automáticos da sua área, com fonte</small></a><a href="/raio-x-margem/"><b>Raio-X de Margem</b><small>onde o negócio perde dinheiro</small></a><a href="/rea/"><b>REA</b><small>engenharia reversa com agentes</small></a><a href="/robot/"><b>Robot</b><small>robótica e humanoides</small></a><a href="/rsi/"><b>RSI</b><small>ciclos de melhoria em IA</small></a><a href="/skills/"><b>Skills</b><small>crie, audite e atualize as suas skills</small></a><a href="/empresa-de-ia/"><b>Sua empresa de IA</b><small>PME: primeiro processo, primeiro agente</small></a><a href="/videos/"><b>Vídeos com IA</b><small>do tema ao vídeo publicado</small></a><a href="/webmcp/"><b>WebMCP</b><small>sites que conversam com agentes</small></a></div><div class="event-areas-group"><p class="event-areas-title">Imersões e cursos</p><a href="/imersao-do-chat-ao-agente/"><b>Imersão Do chat ao agente</b><small>presencial · 11 a 13 de dezembro</small></a><a href="/mostratec/"><b>INEMA na Mostratec</b><small>feira · 27 a 29 de outubro</small></a><a href="/agb2030/"><b>Empresa Agentic</b><small>imersão · diagnóstico gratuito</small></a><a href="/inemaccbot.html"><b>INEMACCBOT</b><small>curso com Promoavatar</small></a><a href="/vibe-code-do-zero.html"><b>Vibe Code</b><small>imersão · novembro de 2026</small></a><a href="/arquitetura-de-intencao.html"><b>Arquitetura de Intenção</b><small>3 dias, no seu ritmo</small></a><a href="/agentes-hub-v.html"><b>Agentes do Zero</b><small>gravado · 5 dias</small></a></div><div class="event-areas-group"><p class="event-areas-title">Projetos e experiências</p><a href="/content2video.html"><b>Content2Video</b><small>um link entra, um vídeo sai</small></a><a href="/musicavideo.html"><b>musicavideo</b><small>música, capa e clipe</small></a><a href="/meridiano-voo/"><b>MERIDIANO</b><small>um voo em uma página</small></a></div></div></details><span class="event-assinante" data-so-assinante="" hidden=""><a href="/cursos/">Cursos</a><a href="/projetos/">Projetos</a><a href="/videos/todos/">Vídeos</a></span><a href="https://news.inema.pro/">News<span class="event-badge">diário</span></a><a class="event-link-club" href="https://inema.club/">INEMA.CLUB</a><a href="https://buscas.inema.club/">Buscas</a><a href="https://t.me/apoioinema">Grupos</a><a class="event-link-cta" href="https://inema.pro/">INEMA.PRO</a></div><div aria-label="Idioma da página" class="event-language-options" role="group"><a aria-current="page" aria-label="Português" href="/criando-seu-jarvis/" hreflang="pt-BR" lang="pt" title="Português">PT</a><a aria-label="English" href="/criando-seu-jarvis/en/" hreflang="en" lang="en" title="English">EN</a><a aria-label="Español" href="/criando-seu-jarvis/es/" hreflang="es" lang="es" title="Español">ES</a></div></div></div><nav aria-label="Cursos, projetos e vídeos desta área" class="area-acesso"><div class="area-acesso-inner"><div class="area-acesso-linha area-acesso-cursos"><span class="area-acesso-rotulo">Cursos</span><div class="area-acesso-lista"><a href="https://inematds.github.io/agentes-do-zero-v72/" rel="noopener">Sistema de agentes do zero</a><a href="https://inematds.github.io/intelecto-v2-curso/" rel="noopener">Seu Jarvis seguro (INTELECTO v2)</a><a href="https://inematds.github.io/agente-por-pecas-v73/" rel="noopener">Agente por peças</a><a href="https://inematds.github.io/do-chat-ao-agente-jarvis-v72/" rel="noopener">Do chat ao agente, degrau 2</a><a href="https://inematds.github.io/iacultivada-v72/" rel="noopener">IA Cultivada</a></div></div><div class="area-acesso-linha area-acesso-projetos"><span class="area-acesso-rotulo">Projetos</span><div class="area-acesso-lista"><a href="https://inematds.github.io/agente-por-pecas-kit/guia/" rel="noopener">agente-por-pecas-kit</a><a href="https://inematds.github.io/intelecto-v2/guia/" rel="noopener">intelecto-v2</a><a href="https://inematds.github.io/jarvis-local/guia/" rel="noopener">jarvis-local</a><a href="https://inematds.github.io/jarvis-painel/guia/" rel="noopener">jarvis-painel</a></div></div><div class="area-acesso-linha area-acesso-videos"><span class="area-acesso-rotulo">Vídeos</span><div class="area-acesso-lista"><a href="https://www.youtube.com/watch?v=rvpTY9IPtS8" rel="noopener">Um agente em 87 linhas</a><a href="https://www.youtube.com/watch?v=pWXLBVyJd1Y" rel="noopener">Agente por peças em 2 min 30 s</a><a href="https://inematds.github.io/intelecto-estrutura/videos/" rel="noopener">As 7 peças de um agente</a><a href="https://inematds.github.io/intelecto-instalacao/videos/" rel="noopener">Instale o seu Jarvis</a><a href="https://www.youtube.com/watch?v=ViFzEStl0Ak" rel="noopener">O painel do seu Jarvis</a></div></div></div></nav>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+<nav aria-label="Seções desta página" class="sub"><div class="wrap">
+<a href="#caminhos">Por onde começar</a>
+<a href="#etapas">As 6 etapas</a>
+<a href="#pecas">As peças</a>
+<a href="#videos">Vídeos</a>
+<a href="#chat-ao-agente">Do chat ao agente</a>
+<a href="#alem">Para ir além</a>
+<a href="#comece">Comece</a>
+</div></nav>
+<main class="wrap" id="conteudo">
+<header class="hero">
+<div class="topline">
+<a class="back" href="/">← Eventos INEMA</a>
+</div>
+<figure class="banner">
+<img alt="Criando seu Jarvis: um assistente de IA só seu, que lembra de você e só faz o perigoso com o seu OK." height="788" src="/criando-seu-jarvis/assets/criando-seu-jarvis.jpg" width="1400"/>
+</figure>
+<div class="hero-texto">
+<div>
+<p class="kicker">Área Criando seu Jarvis · o caminho, na ordem</p>
+<h1>Você vai montar o seu próprio Jarvis. <b>Um assistente que lembra de você e só faz o perigoso com o seu OK.</b></h1>
+<p class="lead">Esta área mostra <b>o caminho na ordem certa</b>: primeiro você entende como um agente funciona por dentro, depois monta o seu com segurança, põe no Telegram, dá voz, vê tudo numa tela e faz ele melhorar toda semana. Em cada etapa, o curso ou o guia que faz aquilo, grátis no inema.club.</p>
+<div class="acoes">
+<a class="btn btn-primary" href="#caminhos">Escolher por onde começar ↓</a>
+<a class="btn" href="#etapas">Ver as 6 etapas ↓</a>
+<a class="btn" href="/jarvis/">Todos os sistemas Jarvis →</a>
+</div>
+<p class="nota-hero"><i></i>Os cursos e guias desta área são abertos e gratuitos. O primeiro passo roda com IA grátis no seu computador (Ollama), sem cartão e sem chave de API.</p>
+</div>
+<aside aria-label="Como usar esta área" class="mapa">
+<h2>Como usar esta área</h2>
+<ol>
+<li>Escolha <a href="#caminhos">por onde começar</a>: sem código, por dentro ou direto no Telegram.</li>
+<li>Siga <a href="#etapas">as 6 etapas</a>, uma de cada vez.</li>
+<li>Confira <a href="#pecas">as peças</a> que todo Jarvis tem.</li>
+<li>Assista <a href="#videos">aos vídeos</a> antes de cada etapa.</li>
+<li>Quer comparar sistemas prontos? Vá à <a href="/jarvis/">área JARVIS</a>.</li>
+</ol>
+</aside>
+</div>
+</header>
+<section id="caminhos">
+<p class="sec">Por onde começar</p>
+<h2 class="t">Três portas de entrada. Todas chegam no mesmo Jarvis.</h2>
+<p class="intro">Escolha pelo que você quer agora. Depois, siga <a href="#etapas">as etapas</a> a partir de onde entrou.</p>
+<div class="grid">
+<a class="card destaque" href="https://inematds.github.io/agentes-do-zero-v72/" rel="noopener" target="_blank">
+<span class="tag">Entender por dentro</span>
+<h3>Sistema de agentes do zero</h3>
+<p>Você monta um agente peça por peça, em Python puro, com IA grátis no seu computador. No fim ele lê e grava numa pasta só, lembra de você, pede o seu OK e se mede sozinho.</p>
+<span class="go">Abrir o curso (7 aulas) →</span>
+</a>
+<a class="card" href="https://inematds.github.io/intelecto-v2-curso/" rel="noopener" target="_blank">
+<span class="tag">Sem escrever código</span>
+<h3>Seu Jarvis seguro (INTELECTO v2)</h3>
+<p>Você descreve o assistente que quer e o agente constrói: roda no seu computador, lembra de você e só faz o perigoso com o seu OK.</p>
+<span class="go">Abrir o curso (9 aulas) →</span>
+</a>
+<a class="card" href="https://inematds.github.io/agente-por-pecas-v73/" rel="noopener" target="_blank">
+<span class="tag">Direto no Telegram</span>
+<h3>Agente por peças</h3>
+<p>Um agente que atende no Telegram e só diz "pronto" depois de conferir. Canal, caixa, cérebro e verificador, uma peça por aula.</p>
+<span class="go">Abrir o curso (8 aulas) →</span>
+</a>
+</div>
+<p class="dica" style="margin-top:22px">O Agente por peças tem um kit pronto, com as peças e o verificador para você rodar junto com as aulas: <a href="https://inematds.github.io/agente-por-pecas-kit/guia/" rel="noopener" target="_blank">guia do agente-por-pecas-kit</a>.</p>
+</section>
+<section id="etapas">
+<p class="sec">As 6 etapas</p>
+<h2 class="t">Do primeiro agente ao Jarvis que trabalha com você todo dia.</h2>
+<p class="intro">Uma etapa de cada vez. Cada uma termina com algo funcionando na sua máquina, e a seguinte parte dali.</p>
+<div class="tabela">
+<table class="rota">
+<thead><tr><th>Etapa</th><th>O que você ganha</th><th>Onde aprender</th></tr></thead>
+<tbody>
+<tr><th>1. Entenda como um agente funciona</th><td>Os 10 passos de um agente (objetivo, harness, modelo, ferramentas, instruções, memória, limites, testes, medição e iteração) rodando no seu computador, com IA grátis.</td><td><a href="https://inematds.github.io/agentes-do-zero-v72/" rel="noopener" target="_blank">Sistema de agentes do zero</a> · 7 aulas</td></tr>
+<tr><th>2. Monte o seu, com segurança</th><td>Um assistente só seu, que lembra de você e não mexe no que não deve. Os agentes trabalham numa cópia do projeto, sem as suas senhas.</td><td><a href="https://inematds.github.io/intelecto-v2-curso/" rel="noopener" target="_blank">Seu Jarvis seguro</a> · 9 aulas<br/><a href="https://inematds.github.io/intelecto-v2/guia/" rel="noopener" target="_blank">Guia do intelecto-v2</a></td></tr>
+<tr><th>3. Ponha no Telegram</th><td>O seu Jarvis no Telegram, com memória, um dono só, identidade escrita por você e ferramentas com limite.</td><td><a href="https://inematds.github.io/do-chat-ao-agente-jarvis-v72/" rel="noopener" target="_blank">Do chat ao agente, degrau 2</a> · 8 aulas<br/><a href="https://inematds.github.io/agente-por-pecas-v73/" rel="noopener" target="_blank">Agente por peças</a> · 8 aulas<br/><a href="https://inematds.github.io/agente-por-pecas-kit/guia/" rel="noopener" target="_blank">Guia do kit agente-por-pecas</a></td></tr>
+<tr><th>4. Dê voz a ele</th><td>Um assistente de voz 100% na sua placa de vídeo: Ollama, voz clonada e Whisper, sem mandar nada para fora.</td><td><a href="https://inematds.github.io/jarvis-local/guia/" rel="noopener" target="_blank">Guia do jarvis-local</a></td></tr>
+<tr><th>5. Veja tudo numa tela</th><td>Um painel que mostra seus robôs, timers, filas e pendências num lugar só, e te dá bom dia em português. Só lê a máquina.</td><td><a href="https://inematds.github.io/jarvis-painel/guia/" rel="noopener" target="_blank">Guia do jarvis-painel</a></td></tr>
+<tr><th>6. Faça ele melhorar toda semana</th><td>O diário de falhas, os arquivos que cultivam o assistente e a autonomia decidida por números, não por fé.</td><td><a href="https://inematds.github.io/iacultivada-v72/" rel="noopener" target="_blank">IA Cultivada</a> · 8 aulas</td></tr>
+</tbody>
+</table>
+</div>
+<p class="honest"><b>Não precisa fazer tudo.</b> Se parar na etapa 3, você já tem um assistente útil no celular. As etapas 4 e 5 pedem um computador com placa de vídeo para rodar tudo local; os guias dizem o que cada uma exige.</p>
+</section>
+<section id="pecas">
+<p class="sec">As peças</p>
+<h2 class="t">Todo Jarvis é feito das mesmas peças. Muda o que você põe em cada uma.</h2>
+<p class="intro">Saber o nome de cada peça ajuda a pedir certo para a IA e a achar o defeito quando algo dá errado.</p>
+<div class="grid g4">
+<div class="card"><h3>Onde ele fala</h3><p>O canal: terminal, Telegram, voz ou uma tela.</p></div>
+<div class="card"><h3>Qual modelo pensa</h3><p>Na nuvem ou no seu computador. Troca sem refazer o resto.</p></div>
+<div class="card"><h3>Quem ele é</h3><p>A identidade e as regras, escritas por você num arquivo.</p></div>
+<div class="card"><h3>Do que ele lembra</h3><p>A memória: o que fica entre uma conversa e outra.</p></div>
+<div class="card"><h3>O que ele faz</h3><p>As ferramentas, cada uma com limite.</p></div>
+<div class="card"><h3>O que ele não pode</h3><p>As travas: pasta fechada, sem senhas, e o seu OK antes do perigoso.</p></div>
+<div class="card"><h3>Como ele se confere</h3><p>Testes e medição: ele só diz "pronto" quando provou.</p></div>
+<div class="card"><h3>Como ele melhora</h3><p>O diário de falhas e a iteração, semana a semana.</p></div>
+</div>
+</section>
+<section id="videos">
+<p class="sec">Vídeos</p>
+<h2 class="t">Veja antes de montar.</h2>
+<div class="grid">
+<a class="card" href="https://www.youtube.com/watch?v=rvpTY9IPtS8" rel="noopener" target="_blank"><span class="tag">2 min 21 s</span><h3>Um agente de IA em 87 linhas</h3><p>Os 10 passos do Sistema de agentes do zero.</p><span class="go">Assistir →</span></a>
+<a class="card" href="https://www.youtube.com/watch?v=pWXLBVyJd1Y" rel="noopener" target="_blank"><span class="tag">2 min 30 s</span><h3>Seu agente só diz pronto depois de conferir</h3><p>O Agente por peças e o kit, em vídeo.</p><span class="go">Assistir →</span></a>
+<a class="card" href="https://inematds.github.io/intelecto-estrutura/videos/" rel="noopener" target="_blank"><span class="tag">8 min</span><h3>As 7 peças de um agente</h3><p>INTELECTO: monte o seu Jarvis peça por peça.</p><span class="go">Assistir →</span></a>
+<a class="card" href="https://inematds.github.io/intelecto-instalacao/videos/" rel="noopener" target="_blank"><span class="tag">6 min</span><h3>Instale o seu Jarvis</h3><p>Do zero ao assistente no ar, sem código.</p><span class="go">Assistir →</span></a>
+<a class="card" href="https://youtube.com/shorts/eB_tYjz1lD0" rel="noopener" target="_blank"><span class="tag">1 min 24 s</span><h3>6 comandos e o seu Jarvis no Telegram</h3><p>Do chat ao agente, em vídeo curto.</p><span class="go">Assistir →</span></a>
+<a class="card" href="https://www.youtube.com/watch?v=ViFzEStl0Ak" rel="noopener" target="_blank"><span class="tag">2 min 25 s</span><h3>O painel do seu Jarvis</h3><p>Uma tela que mostra seus robôs e te dá bom dia.</p><span class="go">Assistir →</span></a>
+<a class="card" href="https://www.youtube.com/shorts/S1fl5Hsx5yI" rel="noopener" target="_blank"><span class="tag">52 s</span><h3>Crie seu Jarvis sem código</h3><p>Os 5 passos com o INTELECTO.</p><span class="go">Assistir →</span></a>
+</div>
+</section>
+<section id="chat-ao-agente">
+<p class="sec">Do chat ao agente</p>
+<h2 class="t">Você não precisa parar no Jarvis: ele é o degrau 2 de 4.</h2>
+<p class="intro">A área Do chat ao agente organiza o mesmo caminho em quatro sequências, cada uma com curso, vídeo e exercícios com "pronto quando". O seu Jarvis é a sequência 2; antes vem o terminal, depois a fila de tarefas e as redes no automático.</p>
+<div class="grid g4">
+<a class="card" href="https://inematds.github.io/do-chat-ao-agente-terminal-v72/" rel="noopener" target="_blank"><span class="tag">Sequência 1</span><h3>Do chat para o terminal</h3><p>Pastas, AGENTS.md e o agente trabalhando dentro da sua pasta.</p><span class="go">Abrir o curso →</span></a>
+<a class="card destaque" href="https://inematds.github.io/do-chat-ao-agente-jarvis-v72/" rel="noopener" target="_blank"><span class="tag">Sequência 2</span><h3>O seu Jarvis</h3><p>As sete peças, quem ele é em quatro arquivos e o núcleo ligado no Telegram.</p><span class="go">Abrir o curso →</span></a>
+<a class="card" href="https://inematds.github.io/do-chat-ao-agente-filas-v72/" rel="noopener" target="_blank"><span class="tag">Sequência 3</span><h3>Filas: dez tarefas e vá dormir</h3><p>O Jarvis recebe pedidos numa fila que não se perde e para antes do que importa.</p><span class="go">Abrir o curso →</span></a>
+<a class="card" href="https://inematds.github.io/do-chat-ao-agente-redes-v72/" rel="noopener" target="_blank"><span class="tag">Sequência 4</span><h3>Redes no automático</h3><p>O canal do seu nicho que confere cada número antes de publicar.</p><span class="go">Abrir o curso →</span></a>
+</div>
+<p class="dica" style="margin-top:22px">Pratique a sequência 2 com os <a href="https://github.com/inematds/jornada-agentes/blob/main/exercicios/02-jarvis.md" rel="noopener" target="_blank">6 exercícios do Jarvis</a> e o <a href="https://inematds.github.io/jornada-agentes/serie/seq2-jarvis/" rel="noopener" target="_blank">vídeo da sequência</a>, ou veja tudo na <a href="/do-chat-ao-agente/">área Do chat ao agente</a>.</p>
+</section>
+<section id="alem">
+<p class="sec">Para ir além</p>
+<h2 class="t">Quando o seu Jarvis estiver de pé.</h2>
+<div class="grid">
+<a class="card" href="/jarvis/"><span class="tag">Área</span><h3>JARVIS</h3><p>Todos os sistemas Jarvis abertos para comparar e adaptar: INTELECTO, Jarvis v7, openpcbot, cérebros de memória e outros.</p><span class="go">Abrir a área →</span></a>
+<a class="card" href="/do-chat-ao-agente/"><span class="tag">Área</span><h3>Do chat ao agente</h3><p>Os 4 degraus: terminal, Jarvis no Telegram, filas de tarefas e redes no automático.</p><span class="go">Abrir a área →</span></a>
+<a class="card" href="/imersao-do-chat-ao-agente/"><span class="tag">Presencial</span><h3>Imersão Do chat ao agente</h3><p>Três dias no Refúgio INEMA, de 11 a 13 de dezembro, para montar tudo junto com a turma.</p><span class="go">Ver a imersão →</span></a>
+</div>
+</section>
+<section class="venda" id="comece">
+<p class="sec">Comece</p>
+<h2 class="t">Hoje: um agente rodando no seu computador.</h2>
+<p class="intro">Instale o Ollama, abra a aula 1 e siga. É de graça e não precisa de chave de API.</p>
+<div class="grid">
+<div class="oferta vip">
+<span class="k">Etapa 1</span>
+<h3>Sistema de agentes do zero</h3>
+<p>Os 10 passos, em Python puro, com IA grátis no computador.</p>
+<a class="btn btn-primary" href="https://inematds.github.io/agentes-do-zero-v72/" rel="noopener" target="_blank">Abrir o curso →</a>
+</div>
+<div class="oferta">
+<span class="k">Sem código</span>
+<h3>Seu Jarvis seguro</h3>
+<p>O INTELECTO v2 monta o assistente por você.</p>
+<a class="btn" href="https://inematds.github.io/intelecto-v2-curso/" rel="noopener" target="_blank">Abrir o curso →</a>
+</div>
+<div class="oferta">
+<span class="k">Telegram</span>
+<h3>Agente por peças</h3>
+<p>O agente que confere antes de dizer pronto, com o kit pronto.</p>
+<a class="btn" href="https://inematds.github.io/agente-por-pecas-v73/" rel="noopener" target="_blank">Abrir o curso →</a>
+<a class="btn" href="https://inematds.github.io/agente-por-pecas-kit/guia/" rel="noopener" target="_blank">Guia do kit →</a>
+</div>
+</div>
+<p class="dica" style="margin-top:22px">Montou o seu? Conte nos <a href="https://t.me/apoioinema" rel="noopener" target="_blank">grupos do Telegram</a> ou no <a href="https://inema.pro/" rel="noopener" target="_blank">INEMA.PRO</a>.</p>
+</section>
+</main>
+<footer><div class="wrap">eventos.inema.pro — área Criando seu Jarvis ·
+<a href="/">Eventos</a> ·
+<a href="/jarvis/">Área JARVIS</a> ·
+<a href="https://github.com/inematds/agentes-do-zero-v72" rel="noopener" target="_blank">agentes-do-zero</a> ·
+<a href="https://github.com/inematds/intelecto-v2" rel="noopener" target="_blank">intelecto-v2</a> ·
+<a href="https://inema.club/" rel="noopener" target="_blank">inema.club</a></div></footer>
+</body>
+</html>

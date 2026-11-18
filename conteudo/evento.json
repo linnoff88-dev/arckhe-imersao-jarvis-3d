@@ -1,0 +1,295 @@
+{
+  "titulo": "Imersão Jarvis 3D",
+  "subtitulo": "Monte um assistente que lembra de você e pede seu OK antes de uma ação de risco.",
+  "chamada": {
+    "dor_ou_desejo": "desejo",
+    "quem": "você, que usa IA todo dia e queria um assistente só seu",
+    "nucleo": "Você vai montar um assistente de IA que lembra de você e só faz o perigoso com o seu OK. É isso que estas seis etapas fazem. Entre no hangar e monte o seu, peça por peça.",
+    "por_que_importa": "O chat comum esquece o que você disse, e um agente sem trava pode mexer no que não devia.",
+    "metodo": "Criando seu Jarvis",
+    "formato": "promessa"
+  },
+  "apresentador": {
+    "nome": "Nei Maldaner",
+    "video": null,
+    "abertura": "Você vai montar um assistente que lembra de você e pede seu OK antes de agir quando há risco. Eu sou o Nei. Entre comigo no hangar do Criando seu Jarvis.",
+    "encerramento": "Você montou um assistente que lembra de você e pede seu OK quando há risco. Vamos escolher a primeira coisa que ele vai guardar."
+  },
+  "pecas": [
+    {
+      "id": "canal",
+      "nome": "Onde ele fala",
+      "descricao": "Você conversa com o Jarvis pelo terminal, pelo Telegram, por voz ou pela tela.",
+      "parte_robo": "Módulo de voz no pescoço"
+    },
+    {
+      "id": "modelo",
+      "nome": "Qual modelo pensa",
+      "descricao": "O modelo pode rodar no seu computador ou na nuvem. Você pode trocá-lo sem refazer o assistente.",
+      "parte_robo": "Núcleo na cabeça"
+    },
+    {
+      "id": "identidade",
+      "nome": "Quem ele é",
+      "descricao": "Você escreve num arquivo quem o assistente é e quais regras ele segue.",
+      "parte_robo": "Placa de identificação no peito"
+    },
+    {
+      "id": "memoria",
+      "nome": "Do que ele lembra",
+      "descricao": "O Jarvis guarda o que precisa lembrar de uma conversa para a outra.",
+      "parte_robo": "Módulo de memória na nuca"
+    },
+    {
+      "id": "ferramentas",
+      "nome": "O que ele faz",
+      "descricao": "Cada ferramenta permite uma ação e tem um limite de uso.",
+      "parte_robo": "Mão direita"
+    },
+    {
+      "id": "travas",
+      "nome": "O que ele não pode",
+      "descricao": "O agente trabalha numa pasta restrita, sem suas senhas. Ações de risco pedem seu OK.",
+      "parte_robo": "Trava no pulso direito"
+    },
+    {
+      "id": "testes",
+      "nome": "Como ele se confere",
+      "descricao": "O agente testa o que fez antes de dizer que terminou.",
+      "parte_robo": "Sensor de conferência no ombro"
+    },
+    {
+      "id": "diario",
+      "nome": "Como ele melhora",
+      "descricao": "Você registra o que falhou e usa o diário para ajustar o assistente a cada semana.",
+      "parte_robo": "Compartimento do diário nas costas"
+    }
+  ],
+  "palcos": [
+    {
+      "id": "primeiro-agente",
+      "numero": 1,
+      "titulo": "Entenda como um agente funciona",
+      "ganho": "Você roda um agente com IA grátis no seu computador e vê como ele usa as ferramentas.",
+      "pecas": [
+        "modelo"
+      ],
+      "materiais": [
+        {
+          "tipo": "curso",
+          "titulo": "Sistema de agentes do zero",
+          "url": "https://inematds.github.io/agentes-do-zero-v72/",
+          "detalhe": "7 aulas de Python com IA local."
+        }
+      ],
+      "video": {
+        "titulo": "Um agente de IA em 87 linhas",
+        "duracao": "2 min 21 s",
+        "url": "https://www.youtube.com/watch?v=rvpTY9IPtS8",
+        "youtube_id": "rvpTY9IPtS8"
+      },
+      "fala": "Você pode ver o que acontece entre um pedido e a resposta. Vamos rodar o agente e acompanhar o que ele faz na sua pasta.",
+      "tarefa": "Instale o Ollama e siga os dez passos do curso para rodar o agente em Python.",
+      "pronto_quando": "Seu agente roda no computador, lê e grava na pasta permitida e confere o que fez."
+    },
+    {
+      "id": "assistente-seguro",
+      "numero": 2,
+      "titulo": "Monte o seu, com segurança",
+      "ganho": "Seu assistente lembra de você e trabalha numa cópia do projeto, sem acesso às suas senhas.",
+      "pecas": [
+        "memoria",
+        "travas"
+      ],
+      "materiais": [
+        {
+          "tipo": "curso",
+          "titulo": "Seu Jarvis seguro",
+          "url": "https://inematds.github.io/intelecto-v2-curso/",
+          "detalhe": "9 aulas para montar o assistente sem escrever código."
+        },
+        {
+          "tipo": "guia",
+          "titulo": "Guia do intelecto-v2",
+          "url": "https://inematds.github.io/intelecto-v2/guia/",
+          "detalhe": "Trabalho numa cópia do projeto, sem suas senhas."
+        },
+        {
+          "tipo": "video",
+          "titulo": "As 7 peças de um agente",
+          "url": "https://inematds.github.io/intelecto-estrutura/videos/",
+          "detalhe": "8 min. INTELECTO: monte o seu Jarvis peça por peça."
+        },
+        {
+          "tipo": "video",
+          "titulo": "Instale o seu Jarvis",
+          "url": "https://inematds.github.io/intelecto-instalacao/videos/",
+          "detalhe": "6 min. Do zero ao assistente no ar, sem código."
+        }
+      ],
+      "video": {
+        "titulo": "Crie seu Jarvis sem código",
+        "duracao": "52 s",
+        "url": "https://www.youtube.com/shorts/S1fl5Hsx5yI",
+        "youtube_id": "S1fl5Hsx5yI"
+      },
+      "fala": "O que você quer que o Jarvis lembre na próxima conversa? Vamos dar memória a ele e definir quando precisa pedir seu OK.",
+      "tarefa": "Descreva o assistente que você quer. Siga o guia para montá-lo numa cópia do projeto, sem suas senhas.",
+      "pronto_quando": "Ele lembra do que você contou em outra conversa e pede seu OK antes de uma ação de risco."
+    },
+    {
+      "id": "telegram",
+      "numero": 3,
+      "titulo": "Ponha no Telegram",
+      "ganho": "Você fala pelo Telegram com um Jarvis que reconhece um único dono e segue as regras que você escreveu.",
+      "pecas": [
+        "identidade",
+        "ferramentas"
+      ],
+      "materiais": [
+        {
+          "tipo": "curso",
+          "titulo": "Do chat ao agente, degrau 2",
+          "url": "https://inematds.github.io/do-chat-ao-agente-jarvis-v72/",
+          "detalhe": "8 aulas sobre o Jarvis no Telegram."
+        },
+        {
+          "tipo": "curso",
+          "titulo": "Agente por peças",
+          "url": "https://inematds.github.io/agente-por-pecas-v73/",
+          "detalhe": "8 aulas para montar um agente que confere o que fez."
+        },
+        {
+          "tipo": "guia",
+          "titulo": "Guia do kit agente-por-pecas",
+          "url": "https://inematds.github.io/agente-por-pecas-kit/guia/",
+          "detalhe": "Peças e verificador para acompanhar o curso."
+        },
+        {
+          "tipo": "video",
+          "titulo": "Seu agente só diz pronto depois de conferir",
+          "url": "https://www.youtube.com/watch?v=pWXLBVyJd1Y",
+          "detalhe": "2 min 30 s. O Agente por peças e o kit, em vídeo."
+        }
+      ],
+      "video": {
+        "titulo": "6 comandos e o seu Jarvis no Telegram",
+        "duracao": "1 min 24 s",
+        "url": "https://youtube.com/shorts/eB_tYjz1lD0",
+        "youtube_id": "eB_tYjz1lD0"
+      },
+      "fala": "Pegue o celular. Agora você vai escrever quem o Jarvis é e falar com ele pelo Telegram.",
+      "tarefa": "Escreva a identidade do Jarvis. Ligue o agente ao Telegram e restrinja os comandos ao dono.",
+      "pronto_quando": "Seu Jarvis responde a você no Telegram, segue a identidade escrita e só aceita comandos do dono."
+    },
+    {
+      "id": "voz",
+      "numero": 4,
+      "titulo": "Dê voz a ele",
+      "ganho": "Você conversa com o Jarvis por voz. Ele ouve e responde no seu computador.",
+      "pecas": [
+        "canal"
+      ],
+      "materiais": [
+        {
+          "tipo": "guia",
+          "titulo": "Guia do jarvis-local",
+          "url": "https://inematds.github.io/jarvis-local/guia/",
+          "detalhe": "Esta etapa pede um computador com placa de vídeo. Confira os requisitos no guia."
+        }
+      ],
+      "video": null,
+      "fala": "Agora você pode fazer o pedido em voz alta. O Jarvis ouve e responde usando a sua placa de vídeo.",
+      "tarefa": "Siga o guia para ligar o Whisper, que transcreve sua fala, ao Ollama e à voz clonada.",
+      "pronto_quando": "Você faz um pedido em voz alta e ouve a resposta na voz clonada. O áudio fica na sua máquina."
+    },
+    {
+      "id": "painel",
+      "numero": 5,
+      "titulo": "Veja tudo numa tela",
+      "ganho": "Você vê seus robôs, as filas e o que está pendente num painel que só lê a máquina.",
+      "pecas": [
+        "testes"
+      ],
+      "materiais": [
+        {
+          "tipo": "guia",
+          "titulo": "Guia do jarvis-painel",
+          "url": "https://inematds.github.io/jarvis-painel/guia/",
+          "detalhe": "Esta etapa pede um computador com placa de vídeo. Confira os requisitos no guia."
+        }
+      ],
+      "video": {
+        "titulo": "O painel do seu Jarvis",
+        "duracao": "2 min 25 s",
+        "url": "https://www.youtube.com/watch?v=ViFzEStl0Ak",
+        "youtube_id": "ViFzEStl0Ak"
+      },
+      "fala": "Abra o painel. Dá para ver o que está na fila e o que ficou pendente sem mexer no trabalho dos robôs.",
+      "tarefa": "Abra o painel do guia e consulte os robôs, os temporizadores, as filas e as pendências.",
+      "pronto_quando": "Você vê esses dados numa só tela e recebe o bom dia em português. O painel só lê a máquina."
+    },
+    {
+      "id": "melhoria-semanal",
+      "numero": 6,
+      "titulo": "Faça ele melhorar toda semana",
+      "ganho": "Você usa o diário de falhas para escolher o que ajustar e os números para decidir o que o Jarvis pode fazer sozinho.",
+      "pecas": [
+        "diario"
+      ],
+      "materiais": [
+        {
+          "tipo": "curso",
+          "titulo": "IA Cultivada",
+          "url": "https://inematds.github.io/iacultivada-v72/",
+          "detalhe": "8 aulas sobre falhas, ajustes e autonomia."
+        }
+      ],
+      "video": null,
+      "fala": "Quando o Jarvis errar, guarde o que aconteceu. Na revisão da semana, esse registro ajuda você a escolher o próximo ajuste.",
+      "tarefa": "Registre uma falha no diário. Na revisão semanal, ajuste os arquivos do assistente e consulte as medições.",
+      "pronto_quando": "Você consegue apontar a falha registrada, o ajuste que ela motivou e a medição que orienta sua decisão sobre autonomia."
+    }
+  ],
+  "portas": [
+    {
+      "titulo": "Entender por dentro",
+      "curso": "Sistema de agentes do zero",
+      "url": "https://inematds.github.io/agentes-do-zero-v72/",
+      "para_quem": "Você quer entender cada peça e programar em Python."
+    },
+    {
+      "titulo": "Sem escrever código",
+      "curso": "Seu Jarvis seguro (INTELECTO v2)",
+      "url": "https://inematds.github.io/intelecto-v2-curso/",
+      "para_quem": "Você quer descrever seu assistente e deixar o agente cuidar do código."
+    },
+    {
+      "titulo": "Direto no Telegram",
+      "curso": "Agente por peças",
+      "url": "https://inematds.github.io/agente-por-pecas-v73/",
+      "para_quem": "Você quer conversar pelo celular com um agente que confere o trabalho."
+    }
+  ],
+  "alem": [
+    {
+      "titulo": "JARVIS",
+      "descricao": "Compare sistemas Jarvis abertos e escolha o que adaptar ao seu.",
+      "url": "https://eventos.inema.pro/jarvis/"
+    },
+    {
+      "titulo": "Do chat ao agente",
+      "descricao": "Siga do terminal ao Telegram. Depois, use filas de tarefas e automatize as redes.",
+      "url": "https://eventos.inema.pro/do-chat-ao-agente/"
+    },
+    {
+      "titulo": "Imersão Do chat ao agente",
+      "descricao": "Monte seu assistente com a turma no Refúgio INEMA.",
+      "url": "https://eventos.inema.pro/imersao-do-chat-ao-agente/"
+    }
+  ],
+  "fecho": {
+    "pergunta": "O que você gostaria que o seu Jarvis lembrasse para você não ter de explicar tudo de novo amanhã?",
+    "cta": "Os cursos e guias estão grátis no inema.club, direto na internet."
+  }
+}

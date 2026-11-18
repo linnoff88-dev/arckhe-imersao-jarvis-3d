@@ -1,0 +1,26 @@
+{
+  "rodada": "06b-ajuste-player",
+  "modelo": "gpt-6.2-astra",
+  "esforco": "medium",
+  "inicio": "2026-11-18T02:03:20-03:00",
+  "segundos": 151,
+  "codigo_saida": 0,
+  "tokens": {
+    "entrada": 500872,
+    "cache": 465792,
+    "saida": 2805
+  },
+  "custo_equivalente_usd": 0.58,
+  "cota_estimada_pct": 0.3,
+  "cota_medida_pct": {
+    "inicio": 88.0,
+    "fim": 88.0
+  },
+  "itens": {
+    "agent_message": 2,
+    "command_execution": 14
+  },
+  "arquivos": [],
+  "prompt": "rodadas/06b-ajuste-player/prompt.md",
+  "resposta": "rodadas/06b-ajuste-player/resposta.md"
+}

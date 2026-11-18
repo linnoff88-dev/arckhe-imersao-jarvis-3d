@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Como este evento foi feito · Imersão Jarvis</title>
+  <link rel="stylesheet" href="processo.css">
+  <script defer src="processo.js"></script>
+</head>
+<body>
+<header><div class="barra"><a href="../index.html"><img src="../marca/logo-inema-club-horizontal.png" alt="INEMA.CLUB — entrar no evento"></a><span>Imersão Jarvis</span></div></header>
+<main>
+  <section class="abertura">
+    <div><h1>Você vê como uma página de cursos virou um <em>evento 3D.</em></h1>
+    <p>Acompanhe cada pedido feito ao Codex, leia a resposta e veja o que precisou mudar no hangar.</p>
+    <a class="botao" href="../index.html">Entrar no evento</a></div>
+    <img src="revisoes/capturas-r4b/02-hangar.png" alt="O hangar visto por quem entra, com o Jarvis entre os telões">
+  </section>
+  <section><h2>Resumo em números</h2>
+    <dl id="resumo" class="metricas"></dl>
+    <p>O custo equivalente serve para comparação com os preços da API. O uso foi pela assinatura, sem cobrança por API.</p>
+    <p id="status" role="status">Carregando os registros…</p>
+    <noscript>Ative o JavaScript para consultar os números e as rodadas.</noscript>
+  </section>
+  <section id="linha"><h2>Linha do tempo</h2>
+    <div class="trilha" id="rodadas">
+      <article><h3>Fonte e briefing</h3>
+      <p>Na sessão com Claude Code, Nei partiu dos materiais de “Criando seu Jarvis” e definiu o que aconteceria em cada palco. Ao concluir uma etapa, você veria uma peça encaixar no robô.</p>
+      <a href="../fonte/criando-seu-jarvis.html">Ver a página de cursos</a> · <a href="BRIEFING.md">Ler o briefing</a></article>
+    </div>
+  </section>
+  <section><h2>Antes e depois</h2>
+    <p>Compare a vista de quem entra no hangar. Abra uma captura para ver os detalhes.</p>
+    <div id="galeria" class="galeria"></div>
+  </section>
+  <section><h2>O que deu errado</h2>
+    <ul>
+      <li>O validador recusou links relativos de “Para ir além” que apareciam na fonte. A rodada seguinte passou a usar os endereços completos.</li>
+      <li>A área isolada do Codex bloqueou o servidor local e a abertura do Chromium. Foi preciso conferir a cena no navegador durante as revisões.</li>
+      <li>O painel escondia o encaixe da peça. Mais tarde, o acabamento fez o robô parecer pronto antes de você começar. As capturas ajudaram a identificar os dois problemas.</li>
+    </ul>
+  </section>
+  <section><h2>Refaça você</h2>
+    <ol>
+      <li>Escolha uma página de cursos e salve uma cópia. Liste o material de cada etapa.</li>
+      <li>Use o <a href="BRIEFING.md">briefing</a> para definir o que a pessoa faz e como você vai conferir o resultado.</li>
+      <li>Abra os pedidos na <a href="#linha">linha do tempo</a>. Adapte o primeiro ao seu conteúdo e confira a programação antes de pedir o cenário.</li>
+      <li>Entre no evento pelo computador e pelo celular. Capture o que ficou difícil de usar e leve essa imagem ao próximo pedido.</li>
+    </ol>
+    <p class="pergunta">Qual parte do seu curso ganharia sentido se a pessoa pudesse montá-la com as próprias mãos?</p>
+    <p>os cursos e guias estão grátis no inema.club, direto na internet</p>
+  </section>
+</main>
+</body></html>

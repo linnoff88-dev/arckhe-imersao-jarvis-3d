@@ -1,0 +1,216 @@
+{
+  "rodadas": [
+    {
+      "rodada": "01-conteudo",
+      "modelo": "gpt-6.2-astra",
+      "esforco": "medium",
+      "inicio": "2026-11-18T01:05:16-03:00",
+      "segundos": 115,
+      "codigo_saida": 0,
+      "tokens": {
+        "entrada": 256109,
+        "cache": 220032,
+        "saida": 3545
+      },
+      "custo_equivalente_usd": 0.52,
+      "cota_estimada_pct": 0.2,
+      "cota_medida_pct": null,
+      "itens": {
+        "agent_message": 3,
+        "command_execution": 5
+      },
+      "arquivos": [],
+      "prompt": "rodadas/01-conteudo/prompt.md",
+      "resposta": "rodadas/01-conteudo/resposta.md"
+    },
+    {
+      "rodada": "02-mundo",
+      "modelo": "gpt-6.2-astra",
+      "esforco": "medium",
+      "inicio": "2026-11-18T01:07:38-03:00",
+      "segundos": 354,
+      "codigo_saida": 0,
+      "tokens": {
+        "entrada": 729029,
+        "cache": 676224,
+        "saida": 12448
+      },
+      "custo_equivalente_usd": 1.19,
+      "cota_estimada_pct": 0.5,
+      "cota_medida_pct": {
+        "inicio": 86.0,
+        "fim": 87.0
+      },
+      "itens": {
+        "agent_message": 3,
+        "command_execution": 17
+      },
+      "arquivos": [],
+      "prompt": "rodadas/02-mundo/prompt.md",
+      "resposta": "rodadas/02-mundo/resposta.md"
+    },
+    {
+      "rodada": "03-correcoes",
+      "modelo": "gpt-6.2-astra",
+      "esforco": "medium",
+      "inicio": "2026-11-18T01:15:26-03:00",
+      "segundos": 381,
+      "codigo_saida": 0,
+      "tokens": {
+        "entrada": 1021112,
+        "cache": 963456,
+        "saida": 12828
+      },
+      "custo_equivalente_usd": 1.36,
+      "cota_estimada_pct": 0.6,
+      "cota_medida_pct": {
+        "inicio": 87.0,
+        "fim": 87.0
+      },
+      "itens": {
+        "agent_message": 3,
+        "command_execution": 20
+      },
+      "arquivos": [],
+      "prompt": "rodadas/03-correcoes/prompt.md",
+      "resposta": "rodadas/03-correcoes/resposta.md"
+    },
+    {
+      "rodada": "04-acabamento",
+      "modelo": "gpt-6.2-astra",
+      "esforco": "medium",
+      "inicio": "2026-11-18T01:24:15-03:00",
+      "segundos": 378,
+      "codigo_saida": 0,
+      "tokens": {
+        "entrada": 785094,
+        "cache": 733568,
+        "saida": 9476
+      },
+      "custo_equivalente_usd": 1.08,
+      "cota_estimada_pct": 0.5,
+      "cota_medida_pct": {
+        "inicio": 87.0,
+        "fim": 87.0
+      },
+      "itens": {
+        "agent_message": 3,
+        "command_execution": 14
+      },
+      "arquivos": [],
+      "prompt": "rodadas/04-acabamento/prompt.md",
+      "resposta": "rodadas/04-acabamento/resposta.md"
+    },
+    {
+      "rodada": "04b-ajustes",
+      "modelo": "gpt-6.2-astra",
+      "esforco": "medium",
+      "inicio": "2026-11-18T01:32:53-03:00",
+      "segundos": 205,
+      "codigo_saida": 0,
+      "tokens": {
+        "entrada": 579169,
+        "cache": 512512,
+        "saida": 5595
+      },
+      "custo_equivalente_usd": 0.96,
+      "cota_estimada_pct": 0.4,
+      "cota_medida_pct": {
+        "inicio": 87.0,
+        "fim": 87.0
+      },
+      "itens": {
+        "agent_message": 3,
+        "command_execution": 13
+      },
+      "arquivos": [],
+      "prompt": "rodadas/04b-ajustes/prompt.md",
+      "resposta": "rodadas/04b-ajustes/resposta.md"
+    },
+    {
+      "rodada": "05-processo",
+      "modelo": "gpt-6.2-astra",
+      "esforco": "medium",
+      "inicio": "2026-11-18T01:38:04-03:00",
+      "segundos": 245,
+      "codigo_saida": 0,
+      "tokens": {
+        "entrada": 747699,
+        "cache": 695808,
+        "saida": 7165
+      },
+      "custo_equivalente_usd": 0.98,
+      "cota_estimada_pct": 0.4,
+      "cota_medida_pct": {
+        "inicio": 87.0,
+        "fim": 88.0
+      },
+      "itens": {
+        "agent_message": 3,
+        "command_execution": 16
+      },
+      "arquivos": [],
+      "prompt": "rodadas/05-processo/prompt.md",
+      "resposta": "rodadas/05-processo/resposta.md"
+    },
+    {
+      "rodada": "06-video-no-telao",
+      "modelo": "gpt-6.2-astra",
+      "esforco": "medium",
+      "inicio": "2026-11-18T01:57:40-03:00",
+      "segundos": 251,
+      "codigo_saida": 0,
+      "tokens": {
+        "entrada": 771418,
+        "cache": 723712,
+        "saida": 7097
+      },
+      "custo_equivalente_usd": 0.96,
+      "cota_estimada_pct": 0.4,
+      "cota_medida_pct": {
+        "inicio": 88.0,
+        "fim": 88.0
+      },
+      "itens": {
+        "agent_message": 3,
+        "command_execution": 15
+      },
+      "arquivos": [],
+      "prompt": "rodadas/06-video-no-telao/prompt.md",
+      "resposta": "rodadas/06-video-no-telao/resposta.md"
+    },
+    {
+      "rodada": "06b-ajuste-player",
+      "modelo": "gpt-6.2-astra",
+      "esforco": "medium",
+      "inicio": "2026-11-18T02:03:20-03:00",
+      "segundos": 151,
+      "codigo_saida": 0,
+      "tokens": {
+        "entrada": 500872,
+        "cache": 465792,
+        "saida": 2805
+      },
+      "custo_equivalente_usd": 0.58,
+      "cota_estimada_pct": 0.3,
+      "cota_medida_pct": {
+        "inicio": 88.0,
+        "fim": 88.0
+      },
+      "itens": {
+        "agent_message": 2,
+        "command_execution": 14
+      },
+      "arquivos": [],
+      "prompt": "rodadas/06b-ajuste-player/prompt.md",
+      "resposta": "rodadas/06b-ajuste-player/resposta.md"
+    }
+  ],
+  "total": {
+    "segundos": 2080,
+    "custo_equivalente_usd": 7.63,
+    "cota_estimada_pct": 3.3,
+    "tokens_entrada": 5390502,
+    "tokens_saida": 60959
+  }
+}
