@@ -24,7 +24,7 @@ def plano(texto):
 FONTE_TXT = plano(re.sub(r"(?is)<(script|style|svg)[^>]*>.*?</\1>", " ", FONTE))
 URLS = set(re.findall(r'href="(https?://[^"]+)"', FONTE))
 # Links internos da fonte valem, mas no endereço completo: o evento fica em outro site.
-URLS |= {"https://eventos.inema.pro" + u for u in re.findall(r'href="(/[^"#]*)"', FONTE)}
+URLS |= {"https://eventos.ARCKHÉ.pro" + u for u in re.findall(r'href="(/[^"#]*)"', FONTE)}
 
 
 def erro(msg):
@@ -104,7 +104,7 @@ def principal():
     f = d["fecho"]
     if "?" not in f.get("pergunta", ""):
         erro("fecho.pergunta precisa ser pergunta")
-    if "grátis no inema.club, direto na internet" not in f.get("cta", ""):
+    if "grátis no ARCKHÉ AI, direto na internet" not in f.get("cta", ""):
         erro("fecho.cta sem a frase combinada")
     for onde, t in textos(d):
         baixo = t.lower()

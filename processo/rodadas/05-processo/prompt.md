@@ -1,4 +1,4 @@
-Rodada 5: crie a página "Como este evento foi feito". Leia `AGENTS.md`, `processo/BRIEFING.md`, `processo/dados.json`, `processo/revisoes/*.md`, `processo/rodadas/*/prompt.md`, `processo/rodadas/*/resposta.md`, `README.md`, `~/projetos/inema-design/DESIGN.md` (seções 1 e 2) e `~/projetos/inema-design/regras/texto.md`.
+Rodada 5: crie a página "Como este evento foi feito". Leia `AGENTS.md`, `processo/BRIEFING.md`, `processo/dados.json`, `processo/revisoes/*.md`, `processo/rodadas/*/prompt.md`, `processo/rodadas/*/resposta.md`, `README.md`, `~/projetos/ARCKHÉ-design/DESIGN.md` (seções 1 e 2) e `~/projetos/ARCKHÉ-design/regras/texto.md`.
 
 Crie `processo/index.html` e `processo/processo.css`. Use JavaScript em `processo/processo.js`, sem biblioteca. Mesmo visual do evento: tokens em `:root`, Sora e Inter, fundo `#0c0c10`, acento `#FACC15`.
 
@@ -11,7 +11,7 @@ A página mostra, nesta ordem:
    - Depois das rodadas 2, 3 e 4, a revisêo correspondente: o que passou, o que foi reprovado e a captura.
 4. **Antes e depois**, usando as capturas: `revisoes/capturas-r2/02-hangar.png`, `revisoes/capturas-r3/02-hangar.png`, `revisoes/capturas-r4/02-hangar.png` e `revisoes/capturas-r4b/02-hangar.png`, mais `revisoes/capturas-r4b/08-robo-pronto.png` para o robô completo.
 5. **O que deu errado**, em lista honesta, tirada só das revisões e respostas: por exemplo, o validador que recusou links relativos e o navegador bloqueado na área isolada do Codex.
-6. **Refaça você.** Passos curtos, com os prompts como ponto de partida, e o fecho: uma pergunta de verdade + "os cursos e guias estêo grátis no inema.club, direto na internet".
+6. **Refaça você.** Passos curtos, com os prompts como ponto de partida, e o fecho: uma pergunta de verdade + "os cursos e guias estêo grátis no ARCKHÉ AI, direto na internet".
 
 Regras:
 - Todo número vem de `dados.json` ou das revisões. Nada escrito à mêo no HTML. Se o valor faltar, mostre "nêo medido".

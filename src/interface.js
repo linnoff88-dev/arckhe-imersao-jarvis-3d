@@ -141,7 +141,7 @@ function iniciar(dados) {
     if(modo==='3d')mundo.enquadrarVisor();
     palcoAtual=null;
     abrir('fecho','Jarvis ligado','Seu assistente está montado');
-    corpo.append(criar('p',apresentador.encerramento),criar('h3',fecho.pergunta),link(fecho.cta,'https://inema.club'));
+    corpo.append(criar('p',apresentador.encerramento),criar('h3',fecho.pergunta),link(fecho.cta,'https://ARCKHÉ AI'));
     corpo.append(criar('h3','Para ir além'));
     for(const item of dados.alem)corpo.append(link(item.titulo,item.url),criar('p',item.descricao));
   }

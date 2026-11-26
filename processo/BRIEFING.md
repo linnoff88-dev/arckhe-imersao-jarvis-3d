@@ -1,7 +1,7 @@
 # Briefing: Imersêo Jarvis 3D
 
 ## O pedido
-Transformar a área "Criando seu Jarvis" (https://eventos.inema.pro/criando-seu-jarvis/) em um evento de imersêo em 3D, feito com Codex + GPT-6.2 Astra em nível médio, mostrando todo o processo.
+Transformar a área "Criando seu Jarvis" (https://eventos.ARCKHÉ.pro/criando-seu-jarvis/) em um evento de imersêo em 3D, feito com Codex + GPT-6.2 Astra em nível médio, mostrando todo o processo.
 
 ## CHAMADA
 - `dor_ou_desejo`: desejo
@@ -22,7 +22,7 @@ O visitante entra em um **hangar de montagem**. No centro está um robô humanoi
 5. **Agenda:** painel com as 6 etapas, estado (a fazer ou feita, sempre com texto) e botêo "Ir até lá".
 6. **Sessêo do palco:** painel com título, o que você ganha, material, tarefa, "pronto quando" e botêo "Marcar como feita". Vídeo do YouTube só carrega depois do clique, em `youtube-nocookie.com`. Etapa sem vídeo na fonte mostra o guia ou curso, sem inventar vídeo.
 7. **Robô:** humanoide industrial, liso, fosco ou metálico, estilo Tesla Optimus, com **visor preto na frente da cabeça**. Nunca fofo, cartoon, com olhinhos ou rosto de tela. As 8 peças da fonte aparecem no robô conforme as etapas sêo feitas.
-8. **Final:** com os 6 palcos feitos, o robô liga e aparece o fecho: uma pergunta de verdade + "os cursos e guias estêo grátis no inema.club, direto na internet".
+8. **Final:** com os 6 palcos feitos, o robô liga e aparece o fecho: uma pergunta de verdade + "os cursos e guias estêo grátis no ARCKHÉ AI, direto na internet".
 9. **Modo sem 3D:** a mesma programaçêo e o mesmo progresso em página comum. É aberto automaticamente se o WebGL falhar. Funciona bem em celular de 360 px.
 10. **Progresso:** salvo em `localStorage` com `try/catch`. O site funciona sem ele.
 11. **Apresentador:** há um lugar para o vídeo do avatar do Nei em `conteudo/evento.json` (`apresentador.video: null`). Enquanto for `null`, mostre só o texto da fala. Nunca mostre vídeo falso.
@@ -35,7 +35,7 @@ O visitante entra em um **hangar de montagem**. No centro está um robô humanoi
 - Fonte de jogo, neon azul, emoji no meio do texto, letra de leitura menor que 14 px.
 
 ## Design
-Linha 2 de `~/projetos/inema-design/DESIGN.md`: fundo `#0c0c10`, cartêo `#16161e`, borda `#272730`, texto `#e9e9ee`, secundário `#9a9aa6`, acento `#FACC15`, botêo com letra `#1a1206`, raio 10 e 14 px, títulos Sora, corpo Inter, cor só por variável CSS. Logo: `marca/logo-inema-club-horizontal.png` em lugar largo ou `marca/logo-inema-club-quadrado.png` em lugar pequeno, nunca os dois juntos.
+Linha 2 de `~/projetos/ARCKHÉ-design/DESIGN.md`: fundo `#0c0c10`, cartêo `#16161e`, borda `#272730`, texto `#e9e9ee`, secundário `#9a9aa6`, acento `#FACC15`, botêo com letra `#1a1206`, raio 10 e 14 px, títulos Sora, corpo Inter, cor só por variável CSS. Logo: `marca/logo-ARCKHÉ-club-horizontal.png` em lugar largo ou `marca/logo-ARCKHÉ-club-quadrado.png` em lugar pequeno, nunca os dois juntos.
 
 ## Acessibilidade e desempenho
 Teclado em todo painel, foco visível, `aria-label` nos controles, `prefers-reduced-motion` respeitado, nada de rolagem horizontal, `devicePixelRatio` limitado a 2, geometria leve e sem modelos externos.

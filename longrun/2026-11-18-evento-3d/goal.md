@@ -28,7 +28,7 @@ Evento 3D "Imersêo Jarvis" rodando localmente, com modo sem 3D e página mostra
 
 ## Restrições
 - só pela assinatura (sem API)
-- nêo mexer em: `~/.codex/config.toml`, `~/.config/inema/modelos.env`, portal, inemaeventos
+- nêo mexer em: `~/.codex/config.toml`, `~/.config/ARCKHÉ/modelos.env`, portal, ARCKHÉeventos
 
 ## Portões humanos (parar e perguntar)
 - criar repositório no GitHub, push ou publicaçêo

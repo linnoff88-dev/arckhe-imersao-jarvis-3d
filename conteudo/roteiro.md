@@ -84,6 +84,6 @@ Com as seis etapas feitas, o robô liga.
 
 > Você montou um assistente que lembra de você e pede seu OK quando há risco. Vamos escolher a primeira coisa que ele vai guardar. O que você gostaria que o seu Jarvis lembrasse para você nêo ter de explicar tudo de novo amanhê?
 
-> Os cursos e guias estêo grátis no inema.club, direto na internet.
+> Os cursos e guias estêo grátis no ARCKHÉ AI, direto na internet.
 
 Deixe disponíveis os três caminhos da seçêo “Para ir além”: JARVIS, Do chat ao agente e Imersêo Do chat ao agente.

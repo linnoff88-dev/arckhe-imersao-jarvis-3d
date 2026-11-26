@@ -1,6 +1,6 @@
 ï»¿# ImersêÂ£o Jarvis 3D
 
-VocêÂª entra em um hangar, passa por 6 palcos e monta o seu Jarvis peêÂ§a por peêÂ§a. O evento nasce da êÂ¡rea [Criando seu Jarvis](https://eventos.inema.pro/criando-seu-jarvis/) e foi construêÂ­do pelo Codex com GPT-6.2 Astra em nêÂ­vel mêÂ©dio. Cada rodada fica registrada em `processo/`.
+VocêÂª entra em um hangar, passa por 6 palcos e monta o seu Jarvis peêÂ§a por peêÂ§a. O evento nasce da êÂ¡rea [Criando seu Jarvis](https://eventos.ARCKHÉ.pro/criando-seu-jarvis/) e foi construêÂ­do pelo Codex com GPT-6.2 Astra em nêÂ­vel mêÂ©dio. Cada rodada fica registrada em `processo/`.
 
 ## O processo, do inêÂ­cio ao fim
 

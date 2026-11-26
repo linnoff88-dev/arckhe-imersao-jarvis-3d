@@ -78,7 +78,7 @@
         {
           "tipo": "curso",
           "titulo": "Sistema de agentes do zero",
-          "url": "https://inematds.github.io/agentes-do-zero-v72/",
+          "url": "https://linnoff88-dev.github.io/arckhe-/",
           "detalhe": "7 aulas de Python com IA local."
         }
       ],
@@ -105,25 +105,25 @@
         {
           "tipo": "curso",
           "titulo": "Seu Jarvis seguro",
-          "url": "https://inematds.github.io/intelecto-v2-curso/",
+          "url": "https://linnoff88-dev.github.io/arckhe-/",
           "detalhe": "9 aulas para montar o assistente sem escrever código."
         },
         {
           "tipo": "guia",
           "titulo": "Guia do intelecto-v2",
-          "url": "https://inematds.github.io/intelecto-v2/guia/",
+          "url": "https://linnoff88-dev.github.io/arckhe-/guia/",
           "detalhe": "Trabalho numa cópia do projeto, sem suas senhas."
         },
         {
           "tipo": "video",
           "titulo": "As 7 peças de um agente",
-          "url": "https://inematds.github.io/intelecto-estrutura/videos/",
+          "url": "https://linnoff88-dev.github.io/arckhe-/videos/",
           "detalhe": "8 min. INTELECTO: monte o seu Jarvis peça por peça."
         },
         {
           "tipo": "video",
           "titulo": "Instale o seu Jarvis",
-          "url": "https://inematds.github.io/intelecto-instalacao/videos/",
+          "url": "https://linnoff88-dev.github.io/arckhe-/videos/",
           "detalhe": "6 min. Do zero ao assistente no ar, sem código."
         }
       ],
@@ -150,19 +150,19 @@
         {
           "tipo": "curso",
           "titulo": "Do chat ao agente, degrau 2",
-          "url": "https://inematds.github.io/do-chat-ao-agente-jarvis-v72/",
+          "url": "https://linnoff88-dev.github.io/arckhe-/",
           "detalhe": "8 aulas sobre o Jarvis no Telegram."
         },
         {
           "tipo": "curso",
           "titulo": "Agente por peças",
-          "url": "https://inematds.github.io/agente-por-pecas-v73/",
+          "url": "https://linnoff88-dev.github.io/arckhe-/",
           "detalhe": "8 aulas para montar um agente que confere o que fez."
         },
         {
           "tipo": "guia",
           "titulo": "Guia do kit agente-por-pecas",
-          "url": "https://inematds.github.io/agente-por-pecas-kit/guia/",
+          "url": "https://linnoff88-dev.github.io/arckhe-/guia/",
           "detalhe": "Peças e verificador para acompanhar o curso."
         },
         {
@@ -194,7 +194,7 @@
         {
           "tipo": "guia",
           "titulo": "Guia do jarvis-local",
-          "url": "https://inematds.github.io/jarvis-local/guia/",
+          "url": "https://linnoff88-dev.github.io/arckhe-/guia/",
           "detalhe": "Esta etapa pede um computador com placa de vídeo. Confira os requisitos no guia."
         }
       ],
@@ -215,7 +215,7 @@
         {
           "tipo": "guia",
           "titulo": "Guia do jarvis-painel",
-          "url": "https://inematds.github.io/jarvis-painel/guia/",
+          "url": "https://linnoff88-dev.github.io/arckhe-/guia/",
           "detalhe": "Esta etapa pede um computador com placa de vídeo. Confira os requisitos no guia."
         }
       ],
@@ -241,7 +241,7 @@
         {
           "tipo": "curso",
           "titulo": "IA Cultivada",
-          "url": "https://inematds.github.io/iacultivada-v72/",
+          "url": "https://linnoff88-dev.github.io/arckhe-/",
           "detalhe": "8 aulas sobre falhas, ajustes e autonomia."
         }
       ],
@@ -255,19 +255,19 @@
     {
       "titulo": "Entender por dentro",
       "curso": "Sistema de agentes do zero",
-      "url": "https://inematds.github.io/agentes-do-zero-v72/",
+      "url": "https://linnoff88-dev.github.io/arckhe-/",
       "para_quem": "Você quer entender cada peça e programar em Python."
     },
     {
       "titulo": "Sem escrever código",
       "curso": "Seu Jarvis seguro (INTELECTO v2)",
-      "url": "https://inematds.github.io/intelecto-v2-curso/",
+      "url": "https://linnoff88-dev.github.io/arckhe-/",
       "para_quem": "Você quer descrever seu assistente e deixar o agente cuidar do código."
     },
     {
       "titulo": "Direto no Telegram",
       "curso": "Agente por peças",
-      "url": "https://inematds.github.io/agente-por-pecas-v73/",
+      "url": "https://linnoff88-dev.github.io/arckhe-/",
       "para_quem": "Você quer conversar pelo celular com um agente que confere o trabalho."
     }
   ],
@@ -275,21 +275,21 @@
     {
       "titulo": "JARVIS",
       "descricao": "Compare sistemas Jarvis abertos e escolha o que adaptar ao seu.",
-      "url": "https://eventos.inema.pro/jarvis/"
+      "url": "https://eventos.ARCKHÉ.pro/jarvis/"
     },
     {
       "titulo": "Do chat ao agente",
       "descricao": "Siga do terminal ao Telegram. Depois, use filas de tarefas e automatize as redes.",
-      "url": "https://eventos.inema.pro/do-chat-ao-agente/"
+      "url": "https://eventos.ARCKHÉ.pro/do-chat-ao-agente/"
     },
     {
       "titulo": "Imersêo Do chat ao agente",
-      "descricao": "Monte seu assistente com a turma no Refúgio INEMA.",
-      "url": "https://eventos.inema.pro/imersao-do-chat-ao-agente/"
+      "descricao": "Monte seu assistente com a turma no Refúgio ARCKHÉ.",
+      "url": "https://eventos.ARCKHÉ.pro/imersao-do-chat-ao-agente/"
     }
   ],
   "fecho": {
     "pergunta": "O que você gostaria que o seu Jarvis lembrasse para você nêo ter de explicar tudo de novo amanhê?",
-    "cta": "Os cursos e guias estêo grátis no inema.club, direto na internet."
+    "cta": "Os cursos e guias estêo grátis no ARCKHÉ AI, direto na internet."
   }
 }

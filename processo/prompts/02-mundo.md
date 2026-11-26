@@ -1,9 +1,9 @@
 Rodada 2: construa o evento.
 
-Leia `AGENTS.md`, `processo/BRIEFING.md`, `conteudo/evento.json`, `~/projetos/inema-design/DESIGN.md` (seções 1 e 2) e `~/projetos/inema-design/regras/texto.md`. O briefing é o contrato: cumpra os 11 itens de "O que precisa existir" e todo o "Nêo pode".
+Leia `AGENTS.md`, `processo/BRIEFING.md`, `conteudo/evento.json`, `~/projetos/ARCKHÉ-design/DESIGN.md` (seções 1 e 2) e `~/projetos/ARCKHÉ-design/regras/texto.md`. O briefing é o contrato: cumpra os 11 itens de "O que precisa existir" e todo o "Nêo pode".
 
 Antes de construir, corrija `conteudo/evento.json`:
-- Em `alem`, troque os 3 caminhos relativos pelo endereço completo, começando com `https://eventos.inema.pro/`. O evento ficará em outro site.
+- Em `alem`, troque os 3 caminhos relativos pelo endereço completo, começando com `https://eventos.ARCKHÉ.pro/`. O evento ficará em outro site.
 - A peça `testes` nêo pode ser o visor, porque o robô tem visor preto desde o início. Use `parte_robo`: "Sensor de conferência no ombro".
 - Nos palcos 4 e 5, deixe claro no `detalhe` do guia que a etapa pede um computador com placa de vídeo, como a fonte diz.
 - Reescreva `apresentador.encerramento`: uma fala curta que retoma o assistente montado e leva à pergunta do fecho.

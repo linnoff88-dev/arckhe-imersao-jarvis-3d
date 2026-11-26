@@ -1,6 +1,6 @@
 Rodada 1: programaçêo do evento. Nêo crie o site ainda.
 
-Leia `AGENTS.md`, `processo/BRIEFING.md`, `fonte/criando-seu-jarvis.html`, `~/projetos/inema-design/regras/texto.md` e `~/projetos/inema-design/regras/chamada.md`.
+Leia `AGENTS.md`, `processo/BRIEFING.md`, `fonte/criando-seu-jarvis.html`, `~/projetos/ARCKHÉ-design/regras/texto.md` e `~/projetos/ARCKHÉ-design/regras/chamada.md`.
 
 Crie `conteudo/evento.json` (UTF-8) com exatamente estas chaves no topo:
 - `titulo`, `subtitulo`
@@ -11,7 +11,7 @@ Crie `conteudo/evento.json` (UTF-8) com exatamente estas chaves no topo:
   `id`, `numero`, `titulo` (igual à fonte, sem o número), `ganho`, `pecas` (ids; toda peça aparece em exatamente um palco), `materiais` (lista com `tipo`, `titulo`, `url` e `detalhe`), `video` (`titulo`, `duracao`, `url`, `youtube_id`, ou null), `fala` (o que o apresentador diz ao chegar), `tarefa`, `pronto_quando`
 - `portas`: as 3 portas de entrada da fonte, com `titulo`, `curso`, `url`, `para_quem`
 - `alem`: os caminhos de "Para ir além", com `titulo`, `descricao`, `url`
-- `fecho`: `pergunta` (pergunta de verdade, ligada ao desejo) e `cta` (contém "grátis no inema.club, direto na internet")
+- `fecho`: `pergunta` (pergunta de verdade, ligada ao desejo) e `cta` (contém "grátis no ARCKHÉ AI, direto na internet")
 
 Regras:
 - Todo `url` precisa existir literalmente na fonte. Vídeo só quando a fonte tiver um que combine com a etapa. Se nêo houver, use null.
