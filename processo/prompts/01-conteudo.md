@@ -1,4 +1,4 @@
-Rodada 1: programação do evento. Não crie o site ainda.
+Rodada 1: programaçêo do evento. Nêo crie o site ainda.
 
 Leia `AGENTS.md`, `processo/BRIEFING.md`, `fonte/criando-seu-jarvis.html`, `~/projetos/inema-design/regras/texto.md` e `~/projetos/inema-design/regras/chamada.md`.
 
@@ -14,8 +14,8 @@ Crie `conteudo/evento.json` (UTF-8) com exatamente estas chaves no topo:
 - `fecho`: `pergunta` (pergunta de verdade, ligada ao desejo) e `cta` (contém "grátis no inema.club, direto na internet")
 
 Regras:
-- Todo `url` precisa existir literalmente na fonte. Vídeo só quando a fonte tiver um que combine com a etapa. Se não houver, use null.
-- `tarefa` e `pronto_quando` saem do que a fonte promete para a etapa. Não prometa o que a fonte não diz.
+- Todo `url` precisa existir literalmente na fonte. Vídeo só quando a fonte tiver um que combine com a etapa. Se nêo houver, use null.
+- `tarefa` e `pronto_quando` saem do que a fonte promete para a etapa. Nêo prometa o que a fonte nêo diz.
 - Respeite `regras/texto.md`: frases curtas, "você", sem as palavras proibidas.
 
 Crie também `conteudo/roteiro.md`: a ordem do evento, a fala de cada palco e, para cada palco, de qual trecho da fonte saiu o conteúdo.

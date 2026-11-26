@@ -10,10 +10,10 @@ RAIZ = Path(__file__).resolve().parent.parent
 FONTE = (RAIZ / "fonte/criando-seu-jarvis.html").read_text(encoding="utf-8", errors="ignore")
 PROIBIDAS = """revolucionar revolucionário revolucionaria mergulhar desvendar jornada potencializar alavancar robusto
 sinergia holístico transformador desbloquear game-changer""".split()
-EXPRESSOES = ["sem esforço", "sem complicação", "de ponta", "divisor de águas", "mudar o jogo", "é importante destacar",
-              "vale ressaltar", "cabe mencionar", "em suma", "nesse sentido", "não é apenas", "mais do que apenas",
+EXPRESSOES = ["sem esforço", "sem complicaçêo", "de ponta", "divisor de águas", "mudar o jogo", "é importante destacar",
+              "vale ressaltar", "cabe mencionar", "em suma", "nesse sentido", "nêo é apenas", "mais do que apenas",
               "é aí que entra", "diga adeus", "comenta ", "link na bio", "me pede o link"]
-ABERTURAS = ("imagine", "pense num", "se você", "neste momento", "então", "hoje vamos", "neste vídeo", "você sabia", "eu fiz")
+ABERTURAS = ("imagine", "pense num", "se você", "neste momento", "entêo", "hoje vamos", "neste vídeo", "você sabia", "eu fiz")
 erros = []
 
 
@@ -58,7 +58,7 @@ def urls(no):
 def principal():
     arq = RAIZ / "conteudo/evento.json"
     if not arq.exists():
-        print("ERRO: conteudo/evento.json não existe")
+        print("ERRO: conteudo/evento.json nêo existe")
         return 1
     d = json.loads(arq.read_text(encoding="utf-8"))
     for chave in "titulo subtitulo chamada apresentador pecas palcos portas alem fecho".split():
@@ -86,7 +86,7 @@ def principal():
             erro(f"palco {i}: sem material")
         v = p.get("video")
         if v and v.get("youtube_id") and v["youtube_id"] not in v.get("url", ""):
-            erro(f"palco {i}: youtube_id não bate com a url")
+            erro(f"palco {i}: youtube_id nêo bate com a url")
     ids = [x["id"] for x in d["pecas"]]
     usados = [x for p in d["palcos"] for x in p.get("pecas", [])]
     if sorted(ids) != sorted(usados):
@@ -113,7 +113,7 @@ def principal():
                 erro(f"{onde}: palavra proibida '{p}'")
         for p in EXPRESSOES:
             if p in baixo:
-                erro(f"{onde}: expressão proibida '{p.strip()}'")
+                erro(f"{onde}: expressêo proibida '{p.strip()}'")
         if onde.endswith((".fala", ".abertura", ".encerramento")):
             if baixo.startswith(ABERTURAS):
                 erro(f"{onde}: abertura proibida")

@@ -167,7 +167,7 @@ export function criarMundo(container,palcos,abrir,toque,falhou,movimento,aoProje
       const folha=rect.left<=1;
       const livreW=folha?w:rect.left, topo=Math.min(76,Math.max(60,h*.12));
       const livreH=(folha?rect.top:h)-topo;
-      // A lente deslocada mantém paralelas as bordas do telão elevado.
+      // A lente deslocada mantém paralelas as bordas do telêo elevado.
       const px=h/(2*Math.tan(T.MathUtils.degToRad(camera.fov/2))*5.045);
       const zoom=palcoEnquadrado?Math.min(livreW*.9/(6.55*px),livreH*.88/(3.38*px)):Math.min(1,livreW/w,livreH/h);
       const escala=Math.max(.01,zoom), dx=(w-livreW)/2;

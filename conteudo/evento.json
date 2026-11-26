@@ -1,11 +1,11 @@
 {
-  "titulo": "Imersão Jarvis 3D",
-  "subtitulo": "Monte um assistente que lembra de você e pede seu OK antes de uma ação de risco.",
+  "titulo": "Imersêo Jarvis 3D",
+  "subtitulo": "Monte um assistente que lembra de você e pede seu OK antes de uma açêo de risco.",
   "chamada": {
     "dor_ou_desejo": "desejo",
     "quem": "você, que usa IA todo dia e queria um assistente só seu",
     "nucleo": "Você vai montar um assistente de IA que lembra de você e só faz o perigoso com o seu OK. É isso que estas seis etapas fazem. Entre no hangar e monte o seu, peça por peça.",
-    "por_que_importa": "O chat comum esquece o que você disse, e um agente sem trava pode mexer no que não devia.",
+    "por_que_importa": "O chat comum esquece o que você disse, e um agente sem trava pode mexer no que nêo devia.",
     "metodo": "Criando seu Jarvis",
     "formato": "promessa"
   },
@@ -32,7 +32,7 @@
       "id": "identidade",
       "nome": "Quem ele é",
       "descricao": "Você escreve num arquivo quem o assistente é e quais regras ele segue.",
-      "parte_robo": "Placa de identificação no peito"
+      "parte_robo": "Placa de identificaçêo no peito"
     },
     {
       "id": "memoria",
@@ -43,12 +43,12 @@
     {
       "id": "ferramentas",
       "nome": "O que ele faz",
-      "descricao": "Cada ferramenta permite uma ação e tem um limite de uso.",
-      "parte_robo": "Mão direita"
+      "descricao": "Cada ferramenta permite uma açêo e tem um limite de uso.",
+      "parte_robo": "Mêo direita"
     },
     {
       "id": "travas",
-      "nome": "O que ele não pode",
+      "nome": "O que ele nêo pode",
       "descricao": "O agente trabalha numa pasta restrita, sem suas senhas. Ações de risco pedem seu OK.",
       "parte_robo": "Trava no pulso direito"
     },
@@ -135,7 +135,7 @@
       },
       "fala": "O que você quer que o Jarvis lembre na próxima conversa? Vamos dar memória a ele e definir quando precisa pedir seu OK.",
       "tarefa": "Descreva o assistente que você quer. Siga o guia para montá-lo numa cópia do projeto, sem suas senhas.",
-      "pronto_quando": "Ele lembra do que você contou em outra conversa e pede seu OK antes de uma ação de risco."
+      "pronto_quando": "Ele lembra do que você contou em outra conversa e pede seu OK antes de uma açêo de risco."
     },
     {
       "id": "telegram",
@@ -246,9 +246,9 @@
         }
       ],
       "video": null,
-      "fala": "Quando o Jarvis errar, guarde o que aconteceu. Na revisão da semana, esse registro ajuda você a escolher o próximo ajuste.",
-      "tarefa": "Registre uma falha no diário. Na revisão semanal, ajuste os arquivos do assistente e consulte as medições.",
-      "pronto_quando": "Você consegue apontar a falha registrada, o ajuste que ela motivou e a medição que orienta sua decisão sobre autonomia."
+      "fala": "Quando o Jarvis errar, guarde o que aconteceu. Na revisêo da semana, esse registro ajuda você a escolher o próximo ajuste.",
+      "tarefa": "Registre uma falha no diário. Na revisêo semanal, ajuste os arquivos do assistente e consulte as medições.",
+      "pronto_quando": "Você consegue apontar a falha registrada, o ajuste que ela motivou e a mediçêo que orienta sua decisêo sobre autonomia."
     }
   ],
   "portas": [
@@ -283,13 +283,13 @@
       "url": "https://eventos.inema.pro/do-chat-ao-agente/"
     },
     {
-      "titulo": "Imersão Do chat ao agente",
+      "titulo": "Imersêo Do chat ao agente",
       "descricao": "Monte seu assistente com a turma no Refúgio INEMA.",
       "url": "https://eventos.inema.pro/imersao-do-chat-ao-agente/"
     }
   ],
   "fecho": {
-    "pergunta": "O que você gostaria que o seu Jarvis lembrasse para você não ter de explicar tudo de novo amanhã?",
-    "cta": "Os cursos e guias estão grátis no inema.club, direto na internet."
+    "pergunta": "O que você gostaria que o seu Jarvis lembrasse para você nêo ter de explicar tudo de novo amanhê?",
+    "cta": "Os cursos e guias estêo grátis no inema.club, direto na internet."
   }
 }

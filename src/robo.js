@@ -29,7 +29,7 @@ export function criarRobo(cena) {
     pecas.set(id,grupo);
     return grupo;
   }
-  // Perfis de revolução: raio e altura em unidades da própria peça.
+  // Perfis de revoluçêo: raio e altura em unidades da própria peça.
   function perfil(pontos,inicio=0,arco=2*Math.PI){
     return new T.LatheGeometry(pontos.map(([r,y])=>new T.Vector2(r,y)),40,inicio,arco);
   }

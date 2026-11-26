@@ -1,7 +1,7 @@
 'use strict';
 
 const objetivos = {
-  '01-conteudo': 'Transformar os cursos em uma programação',
+  '01-conteudo': 'Transformar os cursos em uma programaçêo',
   '02-mundo': 'Construir o hangar e a agenda sem 3D',
   '03-correcoes': 'Ocupar a tela e deixar o encaixe à vista',
   '04-acabamento': 'Dar forma ao robô e iluminar os palcos',
@@ -24,7 +24,7 @@ function elemento(tag, texto) {
 
 const decimal = new Intl.NumberFormat('pt-BR');
 const dolar = new Intl.NumberFormat('pt-BR', {style: 'currency', currency: 'USD'});
-const ausente = 'não medido';
+const ausente = 'nêo medido';
 function valor(n, formato = x => decimal.format(x)) {
   return Number.isFinite(n) ? formato(n) : ausente;
 }
@@ -93,9 +93,9 @@ async function revisao(pai, id, legenda) {
   bloco.className = 'revisao';
   pai.append(bloco);
   const caminho = 'revisoes/revisao-' + id + '.md';
-  const link = elemento('a', 'Ler a revisão original');
+  const link = elemento('a', 'Ler a revisêo original');
   link.href = caminho;
-  bloco.append(elemento('h4', 'Revisão da rodada ' + id.slice(1)));
+  bloco.append(elemento('h4', 'Revisêo da rodada ' + id.slice(1)));
   try {
     const relato = await ler(caminho);
     let lista;
@@ -108,7 +108,7 @@ async function revisao(pai, id, legenda) {
       }
     }
   } catch {
-    bloco.append(elemento('p', 'Falha ao carregar o texto da revisão.'));
+    bloco.append(elemento('p', 'Falha ao carregar o texto da revisêo.'));
   }
   bloco.append(figura(hangar(id), legenda), link);
 }

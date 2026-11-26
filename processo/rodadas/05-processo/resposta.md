@@ -20,4 +20,4 @@ OK: cota medida só nas rodadas com leitura registrada
 OK: layout estático em 360 px no WeasyPrint, com os documentos abertos e sem conteúdo fora da largura
 ```
 
-A verificação visual em navegador real ficou pendente. A área isolada bloqueou a inicialização do Chromium com `shutdown: Operation not permitted (1)`.
+A verificaçêo visual em navegador real ficou pendente. A área isolada bloqueou a inicializaçêo do Chromium com `shutdown: Operation not permitted (1)`.

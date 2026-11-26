@@ -217,7 +217,7 @@ function iniciar(dados) {
     modo=tres?'3d':'sem-3d';
     el('entrada').hidden=true; el('evento').hidden=false; el('hangar').hidden=!tres;
     el('cracha').hidden=false; el('cracha').textContent=salvo.nome||'Visitante';
-    el('tituloModo').textContent=tres?'Hangar de montagem':'Programação sem 3D';
+    el('tituloModo').textContent=tres?'Hangar de montagem':'Programaçêo sem 3D';
     el('trocar').textContent=tres?'Assistir sem 3D':'Entrar no hangar';
     el('fala').textContent=apresentador.nome+' · '+apresentador.abertura;
     el('abertura').textContent=el('fala').textContent;
@@ -228,7 +228,7 @@ function iniciar(dados) {
   function falhou(avisar=true){
     mundo=null;el('toque').replaceChildren();el('cena').replaceChildren();
     if(avisar){
-      exibir(false);el('aviso').textContent='O 3D ficou indisponível. A programação está aberta no modo sem 3D.';
+      exibir(false);el('aviso').textContent='O 3D ficou indisponível. A programaçêo está aberta no modo sem 3D.';
       el('aviso').hidden=false;
     }
   }

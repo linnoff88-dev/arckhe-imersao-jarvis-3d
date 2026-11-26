@@ -5,7 +5,7 @@ export async function carregar(aviso) {
     return await resposta.json();
   } catch {
     aviso.hidden = false;
-    aviso.textContent = 'Não foi possível abrir a programação. Recarregue a página para tentar de novo.';
+    aviso.textContent = 'Nêo foi possível abrir a programaçêo. Recarregue a página para tentar de novo.';
     return null;
   }
 }
